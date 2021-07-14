@@ -1,10 +1,12 @@
 ---
-title: "Tarea04"
+title: "tarea4"
 output: html_document
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 # Estudiante: Niccolo Antonio Zúñiga Bogarín C08690
 ```{r message=FALSE, warning=FALSE}
 library(sf)
@@ -130,4 +132,3 @@ leaflet() %>%
     title = "Cantidad de orquideas")      
 
 ```
-# fin de la tarea
